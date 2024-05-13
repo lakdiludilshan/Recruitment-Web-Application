@@ -1,0 +1,34 @@
+body{
+    background-color: #E7EDEE;
+}
+.container{
+    display: flex;
+    width: 40%;
+    min-height: 100vh;
+    justify-content: center;
+    flex-direction: column;
+    background-color: white;
+    padding: 4em;
+}
+
+.form-group{
+    display: flex;
+    flex-direction: column;
+    gap: .7em;
+    margin-bottom: 2em;
+  }
+  
+  .form-group label{
+    font-size: var(--h5-font-size);
+  }
+  
+  .form-group input, .form-group textarea{
+    padding: .5em 1em;
+    border-radius: .5em;
+    border: none;
+    background-color: whitesmoke;
+    font-size: var(--h6-font-size);
+    color: var(--neutral);
+  }
+  
+ 

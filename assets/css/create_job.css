@@ -1,0 +1,51 @@
+body{
+  background-color: #E7EDEE;
+}
+
+.post-job-form{
+  width: 70%;
+  margin: 0 auto;
+  background-color: var(--neutral);
+  color: whitesmoke;
+  padding: 3em 2em;
+}
+
+.post-job-form h2{
+  padding-bottom: 1em;
+  margin-bottom: 2em;
+  border-bottom: 1px solid gray;
+}
+
+.post-job-form h2:last-of-type{
+  margin-top: 3em;
+}
+
+.form-group{
+  display: flex;
+  flex-direction: column;
+  gap: .7em;
+  margin-bottom: 2em;
+}
+
+.form-group label{
+  font-size: var(--h5-font-size);
+}
+
+.form-group input, .form-group textarea{
+  padding: .5em 1em;
+  border-radius: .5em;
+  border: none;
+  background-color: whitesmoke;
+  font-size: var(--h6-font-size);
+  color: var(--neutral);
+}
+
+.form-group select{
+  padding: .5em 1em;
+  border-radius: .5em;
+  border: none;
+  background-color: whitesmoke;
+  font-size: var(--h5-font-size);
+  color: var(--neutral);
+  cursor: pointer;
+}

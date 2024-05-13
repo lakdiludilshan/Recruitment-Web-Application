@@ -1,0 +1,224 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap');
+
+:root {
+    
+    /* Colors */
+    --primary: hsl(39, 98%, 67%);
+    --secondary: hsl(167, 78%, 31%);
+    --neutral: hsl(272, 62%, 23%);
+  
+    /* Typography */
+    --font-family-default: "Open Sans", sans-serif;
+    --font-scale: 1.15;
+    --base-font-size: 1rem;
+    --h6-font-size: var(--base-font-size);
+    --h5-font-size: calc(var(--h6-font-size) * var(--font-scale));
+    --h4-font-size: calc(var(--h5-font-size) * var(--font-scale));
+    --h3-font-size: calc(var(--h4-font-size) * var(--font-scale));
+    --h2-font-size: calc(var(--h3-font-size) * var(--font-scale));
+    --h1-font-size: calc(
+      var(--h2-font-size) * var(--font-scale) * var(--font-scale)
+    );
+  
+    --font-weight-regular: 400;
+    --font-weight-medium: 500;
+    --font-weight-semi-bold: 600;
+    --font-weight-bold: 700;
+  
+    --letter-spacing-sm: 0.1em;
+    --letter-spacing-md: 0.2em;
+    --letter-spacing-lg: 0.3em;
+  }
+
+  
+  /* headings */
+  h1 {
+    font-size: var(--h1-font-size);
+    font-weight: var(--font-weight-bold);
+  }
+  
+  h2 {
+    font-size: var(--h2-font-size);
+    font-weight: var(--font-weight-semiBold);
+  }
+  
+  h3 {
+    font-size: var(--h3-font-size);
+    font-weight: var(--font-weight-semiBold);
+  }
+  
+  h4 {
+    font-size: var(--h4-font-size);
+    font-weight: var(--font-weight-medium);
+  }
+  
+  h5 {
+    font-size: var(--h5-font-size);
+    font-weight: var(--font-weight-medium);
+  }
+  
+  h6 {
+    font-size: var(--h6-font-size);
+    font-weight: var(--font-weight-regular);
+  }
+  
+  /* font size */
+  .display-h1 {
+    font-size: var(--h1-font-size);
+    font-weight: var(--font-weight-bold);
+  }
+  
+  .display-h2 {
+    font-size: var(--h2-font-size);
+  }
+  
+  .display-h3 {
+    font-size: var(--h3-font-size);
+  }
+  
+  .display-h4 {
+    font-size: var(--h4-font-size);
+  }
+  
+  .display-h5 {
+    font-size: var(--h5-font-size);
+  }
+  
+  .display-h6 {
+    font-size: var(--h6-font-size);
+  }
+
+  *{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  body{
+    font-family: var(--font-family-default);
+    line-height: 1.7em;
+    margin: 0;
+    padding: 0;
+  }
+ 
+  .container{
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 70%;
+  }
+
+  a{
+    text-decoration: none;
+    color: var(--neutral);
+  }
+
+  a:hover{
+    color: var(--secondary);
+  }
+
+  .btn{
+    display: inline-block;
+    padding: 0.5em 1em;
+    border: none;
+    border-radius: 0.5em;
+    color: white;
+    cursor: pointer;
+    background-color: var(--primary);
+    font-size: var(--h5-font-size);
+    font-weight: var(--font-weight-semi-bold);
+  }
+
+  .btn:hover{
+    background-color: var(--secondary);
+    color: whitesmoke;
+  }
+
+  .text-capitalize{
+    text-transform: capitalize;
+  }
+
+  .card{
+    padding: 1em;
+    border-radius: 0.5em;
+    box-shadow: 0 0 0.5em rgba(0,0,0,0.2);
+    overflow: hidden;
+  }
+
+  .card:hover{
+    box-shadow: 0 0 1em rgba(0,0,0,0.2);
+  }
+
+  .section{
+    margin-block: 3em;
+  }
+
+  .text-muted{
+    color: grey;
+  }
+
+  img{
+    display: block;
+    width: 100%;
+  }
+
+  .text-bold{
+    font-weight: var(--font-weight-bold);
+  }
+
+  .mb-sm{
+    margin-bottom: .5em;
+  }
+  
+  .mb-md{
+    margin-bottom: 1em;
+  }
+  
+  .mb-lg{
+    margin-bottom: 2em;
+  }
+  
+  .mb-xl{
+    margin-bottom: 3em;
+  }
+  
+  .text-primary{
+    color: var(--primary);
+  }
+  
+  .text-secondary{
+    color: var(--secondary);
+  }
+  
+  .text-semi-bold{
+    font-weight: var(--font-weight-semiBold);
+  }
+
+  .text-medium{
+    font-weight: var(--font-weight-medium);
+  }
+
+  .text-center{
+    text-align: center;
+  }
+  
+  li{
+    list-style: none;
+}
+
+.btn.btn-danger{
+  background-color: black;
+
+}
+
+.btn.btn-danger:hover{
+  background-color: red;
+}
+
+.btn.btn-secondary{
+  background-color: var(--secondary)
+}
+
+.btn.btn-secondary:hover{
+  background-color: var(--primary);
+}

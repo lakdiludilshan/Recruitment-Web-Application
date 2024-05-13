@@ -1,0 +1,30 @@
+section.hero{
+  text-align: center;
+}
+.category ul{
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3em;
+}
+
+.job-link{
+  display: flex;
+  gap: 2em;
+  align-items: center;
+}
+
+.job-banner{
+  width: 20%;
+  object-fit: cover;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.featured-job-list{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+

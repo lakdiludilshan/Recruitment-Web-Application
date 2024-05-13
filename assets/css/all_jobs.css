@@ -1,0 +1,41 @@
+.jobs-section{
+    display: flex;
+    gap: 3em;
+}
+
+.job-list{
+    flex: 0 0 70%;
+}
+
+.filters{
+    flex: 0 0 30%;
+}
+
+.job-link{
+    display: flex;
+    gap: 2em;
+    align-items: center;
+  }
+  
+
+  .job-banner{
+    width: 30%;
+    object-fit: cover;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .job-content .date-time{
+    display: flex;
+    gap: 1em;
+    align-items: center;
+  }
+
+  .filter-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+  }
+

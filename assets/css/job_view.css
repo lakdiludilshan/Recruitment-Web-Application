@@ -1,0 +1,58 @@
+body{
+  background-color: #E7EDEE;
+}
+
+.view-job-section .container{
+  margin-top: 3em;
+  background-color: white;
+  padding: 1em;
+}
+
+.view-job-section .top{
+  display: flex;
+  align-items: center;
+  padding-bottom: 1em;
+  gap: 2em;
+  border-bottom: 1px solid gray;
+  margin-bottom: 2em;
+}
+
+.view-job-section .top .job-banner{
+  width: 20%;
+  object-fit: cover;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.job-banner{
+  width: 30%;
+  flex: 0 0 30%;
+  object-fit: cover;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.view-job-section .bottom{
+  display:grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin-bottom: 2em;
+  padding-inline: 3em;
+}
+
+.job-description{
+  padding-inline: 3em;
+  padding-bottom: 2em;
+}
+
+.job-actions{
+  display: flex;
+  justify-content: center;
+  gap: 1em;
+  align-items: center;
+  padding: 1em 3em;
+  background-color: var(--neutral);
+}
